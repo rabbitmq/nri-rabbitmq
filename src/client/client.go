@@ -32,7 +32,7 @@ const (
 	// AlivenessTestEndpoint path, this is formatted with the vhost name
 	AlivenessTestEndpoint = "/api/aliveness-test/%s"
 	// HealthCheckEndpoint path, this is formatted with the node name
-	HealthCheckEndpoint = "/api/healthchecks/node/%s"
+	HealthCheckEndpoint = "/api/nodes/%s"
 )
 
 var defaultClient *http.Client
